@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+:root {
+  --Bright_Orange: hsl(31, 77%, 52%);
+  --Dark_Cyan: hsl(184, 100%, 22%);
+  --Very_Dark_Cyan: hsl(179, 100%, 13%);
+  --Transparent_White: hsla(0, 0%, 100%, 0.75);
+  --Very_Light_Gray: hsl(0, 0%, 95%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--Very_Light_Gray);
+  height: 100%;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.container {
+  padding: 2em 0;
+}
+
+.main {
+  border-radius: 10px;
+  overflow: hidden;
+  width: fit-content;
+  margin: 0 auto 1em auto;
+}
+
+img {
+  display: block;
+  width: 5em;
+}
+
+.automobile {
+  width: 13em;
+  height: 22rem;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.automobile_name {
+  color: var(--Very_Light_Gray);
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0.5em 0;
+}
+
+.desc {
+  color: var(--Transparent_White);
+  line-height: 1.5em;
+}
+
+.one {
+  background-color: var(--Bright_Orange);
+}
+
+.two {
+  background-color: var(--Dark_Cyan);
+}
+
+.three {
+  background-color: var(--Very_Dark_Cyan);
+}
+
+.main a {
+  width: fit-content;
+  text-decoration: none;
+  background-color: var(--Very_Light_Gray);
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  margin-top: auto;
+}
+
+.main a:hover {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.one a {
+  color: var(--Bright_Orange);
+}
+
+.two a {
+  color: var(--Dark_Cyan);
+}
+
+.three a {
+  color: var(--Very_Dark_Cyan);
+}
+
+.attribution {
+  font-size: 11px;
+  color: #000;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 376px) {
+  body {
+    height: 100vh;
+    position: relative;
+  }
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .main {
+    display: flex;
+  }
+}
