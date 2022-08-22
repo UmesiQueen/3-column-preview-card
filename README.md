@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/3columnpreviewcard-using-flexbox-and-positioning-9emuN5IPSN)
+- Live Site URL: [Click Here](https://umesiqueen.github.io/3-column-preview-card/)
 
 ## My process
 
