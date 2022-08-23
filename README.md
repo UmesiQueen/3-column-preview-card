@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot.png)
+![Alt text](images/Screenshot.png?raw=true "Optional Title")
 
 ### Links
 
